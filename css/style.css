@@ -1,0 +1,251 @@
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #504E42;
+}
+
+header{
+    text-align: center;
+    color: #3F29FA;
+}
+
+nav{
+    background-color: #FADC28;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #55517A;
+    margin-right: 30px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    color:#574CBA;
+}
+
+.item {
+    background-color: #FADC28;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Animação em Hover */
+.button {
+    background-color: #3F29FA;
+    color: #FADC28;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px double #574CBA;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button:hover {
+    background-color: #574CBA;
+}
+
+/* Efeito de Sombra */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #FADC28;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    margin: 0;
+    color: #504E42;
+}
+
+table thead
+{
+    background-color: #574CBA;
+    color: #FADC28;
+}
+
+table
+{
+    text-align: center;
+    border: 8px solid #574CBA;  
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.white
+{
+    background-color: white;
+}
+
+caption 
+{
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold
+}
+
+tbody
+{
+    background-color: #FADC28;
+}
+.container
+        {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%vh;
+            background-color: #fff3ae;
+        }
+        .titulo
+        {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: linear-gradient(rgb(82, 38, 51,0.35), rgb(27, 28, 61,0.35));
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            border-radius: 25px;
+        }
+        .titulo h2
+        {
+            color: white;
+            text-shadow: 2px 2px rgb(0, 0, 0, 0.3);
+            font-size: 100%;
+            padding-top: 0%;
+        }
+        .pc1
+        {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/033/047/887/original/gradient-colored-background-soft-pink-and-violet-grainy-gradation-blurred-retro-poster-with-abstract-noise-texture-vector.jpg");
+            margin: 10px;
+            padding: 10px;
+            width: 15%;
+            height: 40%;
+            border-radius: 20px;
+            border-color: solid purple;
+            border: 1px solid rgb(175, 76, 255);
+            box-shadow: 5px 5px rgb(214, 10, 255);
+            transition: all .3s ease-in-out;
+        }
+        .pc1:hover
+        {
+            transform: scale(1.05);
+        }
+        .pc2
+        {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/030/510/751/non_2x/gradient-colored-background-soft-pink-and-blue-grainy-gradation-blurred-retro-poster-with-abstract-noise-texture-vector.jpg");
+            background-size: 350%;
+            margin: 10px;
+            padding: 10px;
+            width: 15%;
+            height: 40%;
+            border-radius: 20px;
+            border: 1px solid rgb(76, 133, 255);
+            box-shadow: 5px 5px rgb(34, 10, 255);
+            transition: all .3s ease-in-out;
+        }
+        .pc2:hover
+        {
+            transform: scale(1.05);
+        }
+        .pc3
+        {
+            background-image: url("https://img.freepik.com/free-vector/gradient-grainy-gradient-background_23-2149903371.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719273600&semt=ais_user");
+            margin: 10px;
+            padding: 10px;
+            width: 15%;
+            height: 40%;
+            border-radius: 20px;
+            border: 1px solid rgb(76, 189, 255);
+            box-shadow: 5px 5px rgb(10, 165, 255);
+            transition: all .3s ease-in-out;
+        }
+        .pc3:hover
+        {
+            transform: scale(1.05);;
+        }
+        .pc4
+        {
+            background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8467.jpg");
+            margin: 10px;
+            padding: 10px;
+            width: 15%;
+            height: 40%;
+            border-radius: 20px;
+            border: 1px solid rgb(76, 255, 180);
+            box-shadow: 5px 5px rgb(10, 196, 10);
+            transition: all .3s ease-in-out;
+        }
+        .pc4:hover
+        {
+            transform: scale(1.05);
+        }
+        .pc5
+        {
+            background-image: url("https://img.freepik.com/free-vector/gradient-grainy-gradient-background_23-2149922149.jpg?t=st=1720792406~exp=1720793006~hmac=f18bc43432e2359ea5b81abf0d655e654cfa8d8739ef58bb686040055fa99f31");
+            margin: 10px;
+            padding: 10px;
+            width: 15%;
+            height: 40%;
+            border-radius: 20px;
+            border: 1px solid rgb(255, 163, 76);
+            box-shadow: 5px 5px rgb(255, 79, 10);
+            transition: all .3s ease-in-out;
+        }
+        .pc5:hover
+        {
+            transform: scale(1.05);
+        }
+
+        .descbox
+        {
+            background-image: linear-gradient(rgb(82, 38, 51,0.2), rgb(27, 28, 61,0.2));
+            width: 100%;
+            height: 15%;
+            border-radius: 5px;
+        }
+
+        .desc
+        {
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            margin: 0;
+            text-shadow: 1px 1px rgb(0, 0, 0, 0.3);
+            text-align: center;
+            margin: 3%;
+            padding-top: 2%;
+        }
+
+        .img
+        {
+            border-radius: 20px;
+            display: box;
+            width: 100%;
+            height: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 6%;
+            margin-bottom: 3%;
+            
+        }
